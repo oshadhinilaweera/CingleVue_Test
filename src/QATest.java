@@ -50,6 +50,7 @@ public class QATest {
 		  counttags= formstags.size();
 
 		  for (i=0;i<counttags-2;i++){
+			  
 			driver.navigate().to(CrtURL+"?page="+i);
 			formsreadtags=(List<WebElement>) driver.findElements(By.cssSelector("article"));
 			countread=formsreadtags.size();
