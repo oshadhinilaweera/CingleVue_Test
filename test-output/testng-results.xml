@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="43055" started-at="2015-11-22T07:18:24Z" finished-at="2015-11-22T07:19:07Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="43055" started-at="2015-11-22T07:18:24Z" finished-at="2015-11-22T07:19:07Z">
+      <class name="QATest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:QATest@4ddbc091]" name="setup" is-config="true" duration-ms="38791" started-at="2015-11-22T12:47:45Z" finished-at="2015-11-22T12:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="search()[pri:0, instance:QATest@4ddbc091]" name="search" duration-ms="35579" started-at="2015-11-22T12:48:24Z" finished-at="2015-11-22T12:49:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="search_nagative()[pri:0, instance:QATest@4ddbc091]" name="search_nagative" duration-ms="7404" started-at="2015-11-22T12:49:00Z" finished-at="2015-11-22T12:49:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_nagative -->
+        <test-method status="PASS" signature="closeIn()[pri:0, instance:QATest@4ddbc091]" name="closeIn" is-config="true" duration-ms="2652" started-at="2015-11-22T12:49:07Z" finished-at="2015-11-22T12:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeIn -->
+      </class> <!-- QATest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
